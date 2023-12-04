@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2.7"
+djangorestframework = "==3.14.0"
+psycopg2 = "==2.9.9"
+spyne = "==2.14.0"
+lxml = "==4.9.3"
+asgiref = "==3.7.2"
+pytz = "==2023.3.post1"
+sqlparse = "==0.4.4"
+tzdata = "==2023.3"
+djoser = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
